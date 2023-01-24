@@ -1,0 +1,123 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  --color--white: #ffffff;
+  --color--btn: blue;
+}
+
+.first {
+  display: flex;
+  background-color: #85c1e9;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.second {
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+}
+.nstu_name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-weight: bold;
+  color: black;
+}
+.info ul {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  text-align: center;
+}
+.info ul li {
+  padding: 10px;
+  font-weight: bold;
+}
+#nstuimage {
+  width: 10%;
+  height: auto;
+  padding-right: 7px;
+}
+
+.nav {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-option {
+  padding: 1em;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-width: max-content;
+}
+
+.nav-item:hover {
+  background-color: var(--color--btn);
+}
+
+.nav-item a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.sub-menu {
+  display: none;
+  background-color: grey;
+  position: absolute;
+}
+
+.level-1 {
+  top: 100%;
+}
+
+.level-2 {
+  right: 100%;
+}
+
+.nav-option:hover > .sub-menu {
+  display: block;
+}
+
+.intro-content {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 1.3rem;
+  text-align: justify;
+}
+.overview {
+  margin-top: 20px;
+  margin-left: 25px;
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.intro-content-overview {
+  margin-top: 05px;
+  margin-left: 25px;
+  margin-right: 20px;
+  font-size: 1.3rem;
+  text-align: justify;
+}
+.copyright-part {
+  background-color: blue;
+  height: 30px;
+  width: auto;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
